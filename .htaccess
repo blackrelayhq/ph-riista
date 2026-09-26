@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^tuotteet/?$ tuotteet.html [L]
+RewriteRule ^ota-yhteytta/?$ ota-yhteytta.html [L]

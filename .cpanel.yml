@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/phriista/public_html/
+    - /bin/cp -f index.html $DEPLOYPATH
+    - /bin/cp -f tuotteet.html $DEPLOYPATH
+    - /bin/cp -f ota-yhteytta.html $DEPLOYPATH
+    - /bin/cp -f styles.css $DEPLOYPATH
+    - /bin/cp -f .htaccess $DEPLOYPATH
